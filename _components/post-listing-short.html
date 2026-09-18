@@ -1,0 +1,12 @@
+<article itemscope itemtype="https://schema.org/BlogPosting">
+    <a draggable="false" class="post-card" rel="noopener follow" href="{{.Url}}">
+        <h2 itemprop="headline">{{.Title}}</h2>
+        <div class="post-card-text">
+            <p data-nosnippet>
+                {{.Date.Format "Jan 02, 2006"}}{{if .Type }} | {{ .Type }} {{ end }}
+                {{if .Categories}} | {{range $index, $cat := .Categories}}{{if $index}}, {{end}}{{$cat}}{{end}}{{end}}
+            </p>
+        </div>
+        <p itemprop="description">{{if .Description}}{{.Description}}{{end}}</p>
+    </a>
+</article>

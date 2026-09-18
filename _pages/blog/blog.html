@@ -1,0 +1,11 @@
+---
+title: Blog
+description: My Blog
+---
+<header class="banner no-select" itemscope itemtype="https://schema.org/WPHeader">
+    <h1 itemprop="headline">{{ .Metadata.Title }}</h1>
+    <p>Build and do what you want because you can</p>
+</header>
+<div id="posts-list" class="posts-na" role="feed" aria-label="Blog posts">
+{{range .posts}}{{template "post-listing-full-lazy.html" .}}{{end}}
+</div>

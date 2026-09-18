@@ -1,0 +1,14 @@
+# Replace with anticipated URL
+site_url: hzzps:myepicsite.zom
+# Will invoke a table of contents to be created on posts with headers
+make_toc: true
+
+# Define an external location to read your markdown posts!
+# I am still working on the code to handle environments and page locations so its more dynamic.
+# not sure when that will be done...
+# post_input_dir: /myposts/behere/
+
+# Define where you want the sit to output to so you don't have to deal with a command.
+# If you don't tell it to go somewhere else in config or a command it will use your current location.
+# Example: "arcstatic -s -i ./mysite/"
+site_output_root: ./mysite
