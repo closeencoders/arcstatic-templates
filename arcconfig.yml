@@ -10,4 +10,5 @@ make_toc: true
 
 # Define where you want the sit to output to so you don't have to deal with a command.
 # If you don't tell it to go somewhere else in config or a command it will use your current location.
-# site_output_root: ./mysite
+# Example: "arcstatic -s -i ./mysite/"
+site_output_root: ./mysite

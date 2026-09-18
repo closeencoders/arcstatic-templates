@@ -104,3 +104,5 @@ Yo! Wazup!
 Yo! Wazup!
 
 ### Info
+
+Try clicking on the table of contents.
